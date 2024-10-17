@@ -250,6 +250,7 @@ form {
 }
 
 .up {
+  display: none;
   font-size: 25px;
   position: relative;
   text-align: end;
