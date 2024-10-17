@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e224e5424e.js" crossorigin="anonymous"></script>
+        
+        <!-- ICONOS BOXICON -->
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    
+
+    <title>Landing page Personal</title>
+</head>
+
+<body>
+    <header id="arriba">
+        
+        <div class="contenedor-titular">
+            <h1 class="titular">Tambutto Sandro</h1>
+        </div>     
+            
+        
+            <input type="checkbox" name="#" id="menu" class="nav__input" checked> 
+            <label for="menu" class="nav__label">
+                <i class="fa-solid fa-bars"></i>  
+            </label>   
+            
+        
+                    <nav class="nav-1">
+                            <ul>
+                                <li><a title="About me" href="#hero" class="nav__item"><i class="fa-regular fa-face-smile"></i></a></li>
+                                <li><a href="#proyectos" class="nav__item"><i class="fa-solid fa-briefcase"></i></a></li>
+                                <li><a href="#contacto" class="nav__item"><i class='bx bxs-contact'></i></a></li>   
+                            </ul>
+                    </nav>
+
+                    <nav class="nav-2">
+                        <ul>
+                            <li><a href="#hero" class="nav__item">Acerca de mi</a></li>
+                            <li><a href="#proyectos" class="nav__item">Mis Proyectos</a></li>
+                            <li><a href="#contacto" class="nav__item">Contactame</a></li>   
+                        </ul>
+                    </nav>
+            
+    </header>
+        
+    <main>
+            <section id="hero" class="Hero">
+
+                <h2>Transformando Ideas en Realidad</h2> 
+                <h4>Innovación en Cada Línea de Código</h4>
+                    
+
+                <div class="container__foto">
+                    <img src="./assets/mifoto.jpg" alt="Mi foto" class="foto"> 
+                    
+                    <div class="icons">
+                        <a href="https://github.com/Tambutto"><i title="Github" class='bx bxl-github'></i></a>
+                        <i title="Linkedin" class='bx bxl-linkedin'></i>
+                        <i title="Instagram" class='bx bxl-instagram'></i>
+                        <i title="Facebook" class='bx bxl-facebook-circle'></i>
+                        <i title="X" class='bx bxl-twitter'></i>
+                    </div>
+
+                </div>
+
+                <div class="up">
+                    <a href="#arriba"><i class="fa-solid fa-circle-up"></i></a>
+                </div>
+                
+                <p>
+                    Desarrollador front-end apasionado con experiencia en HTML, CSS, JavaScript y frameworks como React. Me especializo en crear interfaces de usuario intuitivas y dinámicas que mejoran la experiencia del usuario. Con un ojo para el diseño y un enfoque en el rendimiento, he trabajado en diversos proyectos, desde sitios web personales hasta aplicaciones complejas.
+                </p>
+
+                
+            </section>
+
+            <section class="proyectos">
+                 <h2 id="proyectos">Mis proyectos</h2>
+            
+                <div class="up">
+                    <a href="#arriba"><i class="fa-solid fa-circle-up"></i></a>
+                </div>
+
+            
+        
+                <div class="proyect">
+                    <div class="proyect-item">
+                        <img src="./assets/nueva1.jpg" alt="Imagen 1">
+                    </div>
+                    <div class="proyect-item">
+                        <img src="./assets/nueva2.jpg" alt="Imagen 2">
+                    </div>
+                    <div class="proyect-item">
+                        <img src="./assets/nueva3.jpg" alt="Imagen 3">
+                    </div>
+                    <div class="proyect-item">
+                        <img src="./assets/nueva4.jpg" alt="Imagen 4">
+                    </div>
+                </div>    
+
+                <p class="descripcion">Desarrollador con experiencia en múltiples lenguajes y tecnologías. He trabajado en proyectos que van desde el desarrollo de aplicaciones web utilizando HTML, CSS y JavaScript, hasta la implementación de soluciones backend con Node.js y bases de datos SQL. También tengo experiencia en React y he colaborado en equipos ágiles para entregar software de alta calidad en plazos ajustados.                 
+                </p>
+                
+             
+
+            </section>
+             <section class="formulario">
+
+                 <h4 id="contacto">Contactame</h4>
+
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        
+                        <input class="controls focus" type="text" id="name" name="name" placeholder="Nombre" required>
+
+                        <input class="controls" type="text" id="lastname" name="lastname" placeholder="Apellido" required>
+        
+                       
+                        <input class="controls" type="email" id="email" name="email" placeholder="Email" required>
+                                
+                        <textarea class="controls" id="message" name="message" rows="5" placeholder="Mensaje"></textarea>
+
+                        <button class="btn" type="submit">Enviar</button>                 
+                        
+                    </form>
+                </div>  
+                <div class="up">
+                    <a href="#arriba"><i class="fa-solid fa-circle-up"></i></a>
+                </div>
+                
+            </section>
+               
+    </main>
+    <footer>
+        
+        <p> <i class='bx bxs-copyright'></i> 2024 copyright derechos reservados Tambutto Sandro</p>
+
+    </footer>
+    
+</body>
+</html>
