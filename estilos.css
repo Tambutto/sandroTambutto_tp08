@@ -160,6 +160,7 @@ li {
   margin-top: 3vh;
   padding: 5px;
   text-align: center;
+  transform: translateY(-20%);
 }
 
  i {
@@ -175,6 +176,7 @@ li {
 
 .icons i:hover {
   color: #79f48b;
+  transform: translateY(-5px);
 }
 
 /* ------SECCION PROYECTOS----- */
@@ -346,11 +348,15 @@ footer i {
     margin: 1vh;
    
   }
+
+  .up {
+    display: block;
+  }
 }
 
 /* -----VERSION DESKTOP----- */
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
 
   .nav__input:checked ~ .nav-1 {
     display: none;
@@ -367,6 +373,10 @@ footer i {
 
 h4 {
   font-size: 2vw;
+}
+
+p {
+  font-size: 20px;
 }
 
   .icons {
@@ -388,7 +398,7 @@ h4 {
   .proyect img {
     border-radius: 5px;
     width: 22vw;
-    height: 30vh;
+    height: 35vh;
     margin: 1vh;
 
     .controls {
@@ -403,4 +413,6 @@ h4 {
   }
 
 }
+ 
 }
+
